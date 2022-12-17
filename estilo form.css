@@ -1,0 +1,23 @@
+label {
+
+    display: block;
+}
+
+input {
+
+display: block;
+margin-top: 10px;
+margin-bottom: 10px;  
+
+}
+
+input.check,
+label.check {
+    display:inline-block
+}
+
+
+textarea {
+
+    resize: none;
+}

@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilo form.css">
+   
+    <title>Utilizando a TAG formulario</title>
+
+</head>
+
+<body>
+
+   
+ <form action="TESTE DE FORMULARIOS.html" method="get">
+
+      
+    <label for="usuario">Usuario</label> 
+    <input type="text" name="usuario" id="usuario" required max="12" placeholder="digite o usuário">
+
+    <label for="CPF">CPF</label> 
+    <input type="text" name="CPF" id="CPF" required max="14" placeholder="000.000.000-00">
+    
+    <label for="email">email</label>
+    <input type="email"   name="email" id="email">
+   
+    <label for="senha">senha</label>
+    <input type="password" name="senha" id="senha">
+
+    <label for="idade">idade</label>
+    <input disabled type="number" name="idade" id="idade" min="0"  max="10">
+
+    <label for="nascimento">data de nascimeto</label>
+    <input type="date" name="nascimento" id="nascimento">
+
+        <div>
+        
+            <input class="check" type="checkbox" name="sim" id="sim" value="verdadeiro">
+            <label class="check" for="retirada">retirada</label>
+
+        </div>
+
+        <div>
+        
+            <input class="check" type="radio" value="sim" name="pergunta">
+            <label class="check" for="">sim</label>
+
+            <input class="check" type="radio" value="não" name="pergunta">
+            <label class="check" for="">não</label>
+
+            <input class="check" type="radio" value="mais ou menos" name="pergunta">
+            <label class="check" for="">mais ou não</label>
+
+        </div>
+
+        <div>
+
+            <label for="estados"> Lista de estados</label>
+
+            <select name="estados" id="estado">
+                <option value="disabled">setecione uma opção</option>
+                <option value="CE"> ceará </option>
+                <option value="PE"> pernambuco </option>
+                <option value="BA"> Bahia </option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="mensagem">mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        </div>
+
+
+    <button type="reset">Limpar</button>
+    <button type="submit">enviar</button>
+ 
+     
+ </form>
+
+</body>
+
+</html>
